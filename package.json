@@ -1,0 +1,19 @@
+{
+  "name": "songbot",
+  "version": "1.0.0",
+  "description": "sssssssongs",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "tracery",
+    "bot"
+  ],
+  "author": "@ghost@indieweb.social",
+  "license": "ISC",
+  "devDependencies": {
+    "megalodon": "^5.4.1"
+  },
+  "dependencies": {
+    "tracery-grammar": "^2.7.4"
+  }
+}

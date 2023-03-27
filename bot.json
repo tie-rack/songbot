@@ -1,0 +1,108 @@
+{
+  "origin": [
+    "T:#title#\nC:Tracery Songbot\nQ:1/4=#tempo#\nK:[#k#]#key#\n#song#"
+  ],
+  "tempo": [
+    "80", "85",
+    "90", "95",
+    "100", "105",
+    "110", "115",
+    "120", "125",
+    "130", "135",
+    "140", "145",
+    "150", "155",
+    "160"
+  ],
+  "title": [
+    "#s#ong"
+  ],
+  "s": [
+    "S",
+    "Ss",
+    "Sss",
+    "Ssss",
+    "Sssss",
+    "Ssssss",
+    "Sssssss",
+    "Ssssssss"
+  ],
+  "k": [
+    "[key:C\\#][i:C][ii:D][iii:E][iv:F][v:G][vi:A][vii:B]",
+    "[key:F\\#][i:F][ii:G][iii:A][iv:B][v:c][vi:d][vii:e]",
+    "[key:B][i:B][ii:c][iii:d][iv:e][v:f][vi:g][vii:a]",
+    "[key:E][i:E][ii:F][iii:G][iv:A][v:B][vi:c][vii:d]",
+    "[key:A][i:A][ii:B][iii:c][iv:d][v:e][vi:f][vii:g]",
+    "[key:D][i:D][ii:E][iii:F][iv:G][v:A][vi:B][vii:c]",
+    "[key:G][i:G][ii:A][iii:B][iv:c][v:d][vi:e][vii:f]",
+    "[key:C][i:C][ii:D][iii:E][iv:F][v:G][vi:A][vii:B]",
+    "[key:F][i:F][ii:G][iii:A][iv:B][v:c][vi:d][vii:e]",
+    "[key:Bb][i:B][ii:c][iii:d][iv:e][v:f][vi:g][vii:a]",
+    "[key:Eb][i:E][ii:F][iii:G][iv:A][v:B][vi:c][vii:d]",
+    "[key:Ab][i:A][ii:B][iii:c][iv:d][v:e][vi:f][vii:g]",
+    "[key:Db][i:D][ii:E][iii:F][iv:G][v:A][vi:B][vii:c]",
+    "[key:Gb][i:G][ii:A][iii:B][iv:c][v:d][vi:e][vii:f]",
+    "[key:Cb][i:C][ii:D][iii:E][iv:F][v:G][vi:A][vii:B]",
+    "[key:A\\#m][i:A][ii:B][iii:c][iv:d][v:e][vi:f][vii:g]",
+    "[key:D\\#m][i:D][ii:E][iii:F][iv:G][v:A][vi:B][vii:c]",
+    "[key:G\\#m][i:G][ii:A][iii:B][iv:c][v:d][vi:e][vii:f]",
+    "[key:C\\#m][i:C][ii:D][iii:E][iv:F][v:G][vi:A][vii:B]",
+    "[key:F\\#m][i:F][ii:G][iii:A][iv:B][v:c][vi:d][vii:e]",
+    "[key:Bm][i:B][ii:c][iii:d][iv:e][v:f][vi:g][vii:a]",
+    "[key:Em][i:E][ii:F][iii:G][iv:A][v:B][vi:c][vii:d]",
+    "[key:Am][i:A][ii:B][iii:c][iv:d][v:e][vi:f][vii:g]",
+    "[key:Dm][i:D][ii:E][iii:F][iv:G][v:A][vi:B][vii:c]",
+    "[key:Gm][i:G][ii:A][iii:B][iv:c][v:d][vi:e][vii:f]",
+    "[key:Cm][i:C][ii:D][iii:E][iv:F][v:G][vi:A][vii:B]",
+    "[key:Fm][i:F][ii:G][iii:A][iv:B][v:c][vi:d][vii:e]",
+    "[key:Bbm][i:B][ii:c][iii:d][iv:e][v:f][vi:g][vii:a]",
+    "[key:Ebm][i:E][ii:F][iii:G][iv:A][v:B][vi:c][vii:d]",
+    "[key:Abm][i:A][ii:B][iii:c][iv:d][v:e][vi:f][vii:g]"
+  ],
+  "note": [
+    "C#pitch#",
+    "D#pitch#",
+    "E#pitch#",
+    "F#pitch#",
+    "G#pitch#",
+    "A#pitch#",
+    "B#pitch#"
+  ],
+  "pitch": [
+    "",
+    "'"
+  ],
+  "song": [
+    "#bar# #bar# #bar# #bar# #bar# #bar# #bar# #bar#"
+  ],
+  "bar": [
+    "#note# #note# #note# #note#",
+    "#chord# #note# #note# #note#",
+    "#note# #chord# #note# #note#",
+    "#note# #note# #chord# #note#",
+    "#note# #note# #note# #chord#",
+    "#chord# #chord# #note# #note#",
+    "#chord# #note# #chord# #note#",
+    "#chord# #note# #note# #note#",
+    "#chord# #chord# #chord# #note#",
+    "#chord# #chord# #chord# #chord#",
+    "#note# #note# #note# #chord#",
+    "#chord#2 #note# #note#",
+    "#note# #chord# #note#2",
+    "#note#2 #chord# #note#",
+    "#chord#2 #chord#2",
+    "#chord#2 #chord# #chord#",
+    "#note# #note#2 #note#",
+    "#note# #note# #note#2",
+    "#note#2 #note# #note#",
+    "#note#2 #note#2"
+  ],
+  "chord": [
+    "\\[#i##iii##v#\\]",
+    "\\[#ii##iv##vi#\\]",
+    "\\[#iii##v##vii#\\]",
+    "\\[#iv##vi##i#\\]",
+    "\\[#v##vii##ii#\\]",
+    "\\[#vi##i##iii#\\]",
+    "\\[#vii##ii##iv#\\]"
+  ]
+}
