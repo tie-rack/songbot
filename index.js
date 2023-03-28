@@ -31,8 +31,9 @@ const insertBars = (music) => {
 const generateSong = () => {
   let grammar = tracery.createGrammar(grammarDefinition);
   let score = grammar.flatten('#origin#').split("\n");
-  let music = score[4];
-  score[4] = insertBars(music);
+  let musicIndex = score.length - 1;
+  let music = score[musicIndex];
+  score[musicIndex] = insertBars(music);
   return score.join("\n");
 };
 
