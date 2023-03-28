@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      Songbot
+    </title>
+    <style>
+      body {
+        font-family: "Open Sans", "Arial", sans-serif;
+        background-color: #fffcfc;
+      }
+      .main {
+        margin: auto;
+        width: 80%;
+      }
+      .score {
+        width: 770px;
+      }
+      .player {
+        width: 770px;
+      }
+    </style>
+    <link href="site/abcjs-audio.css" media="all" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="main">
+      <div id="song" class="score"></div>
+      <div id="audio" class="player"></div>
+      <button id="generate">new song</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/abcjs@6.2.0/dist/abcjs-basic-min.js"></script>
+    <script src="site/tracery.js"></script>
+    <script>
+      const insertBars = (music) => {
+        notes = music.match(/\[[^\]]+\S+|\S+/g);
+        let res = "|: ";
+        count = 0;
+        notes.forEach(note => {
+          if (note[note.length - 1] === "2") {
+            count += 2
+          } else {
+            count += 1
+          }
+          res += `${note}`;
+          if (count % 4 === 0) {
+            res += " ";
+          }
+          if (count % 8 === 0) {
+            res += "| ";
+          }
+          if (count % 16 === 0) {
+            res += "\n";
+          }
+        })
+        res = res.replace(/\|\s+$/, ":|");
+        return res;
+      }
+
+      fetch('bot.json').then(response => {
+        response.text().then(json => {
+          let grammarDefinition = JSON.parse(json);
+
+          let refreshSong = () => {
+            let grammar = tracery.createGrammar(grammarDefinition);
+            let score = grammar.flatten('#origin#').split("\n");
+            let music = score[4];
+            score[4] = insertBars(music);
+            score = score.join("\n");
+            let visualObj = ABCJS.renderAbc('song', score, {})[0];
+
+            let synthControl = new ABCJS.synth.SynthController();
+			      synthControl.load('#audio', null, {displayRestart: true,
+                                               displayPlay: true,
+                                               displayProgress: true});
+			      synthControl.setTune(visualObj, false);
+          };
+
+          document.getElementById('generate').addEventListener('click', refreshSong);
+
+          refreshSong();
+        });
+      });
+    </script>
+  </body>
+</html>
