@@ -1,6 +1,6 @@
 {
   "origin": [
-    "T:#title#\nC:Tracery Songbot\nQ:1/4=#tempo#\nK:[#k#]#key#\n#song#"
+    "T:#title#\nC:Tracery Songbot\nM:4/4\nQ:1/4=#tempo#\nK:[#k#]#key#\n#song#"
   ],
   "tempo": [
     "80", "85",
@@ -72,33 +72,33 @@
     "'"
   ],
   "song": [
-    "|: #bar# | #bar# | #bar# | #bar# |\n| #bar# | #bar# | #bar# | #bar# :|",
-    "#note# |: #bar# | #bar# | #bar# | #bar# |\n| #bar# | #bar# | #bar# | #bar# :|",
-    "|: #bar# | #bar# | #bar# | #bar# |\n| #bar# | #bar# | #bar# | #bar# :| #chord#4 |"
+    "|: #bar# #bar# | #bar# #bar# |\n| #bar# #bar# | #bar# #bar# :|",
+    "#note# |: #bar# #bar# | #bar# #bar# |\n| #bar# #bar# | #bar# #bar# :|",
+    "|: #bar# #bar# | #bar# #bar# |\n| #bar# #bar# | #bar# #bar# :| #chord#4 |"
   ],
   "bar": [
-    "#chord# #chord# #chord# #chord#",
-    "#chord# #chord# #chord# #note#",
-    "#chord# #chord# #note# #note#",
+    "#chord##chord##chord##chord#",
+    "#chord##chord##chord##note#",
+    "#chord##chord##note##note#",
     "#chord# #chord#2 #note#",
-    "#chord# #note# #chord# #note#",
-    "#chord# #note# #note# #chord#",
-    "#chord# #note# #note# #note#",
-    "#chord#2 #chord# #chord#",
+    "#chord##note##chord##note#",
+    "#chord##note##note##chord#",
+    "#chord##note##note##note#",
+    "#chord#2 #chord##chord#",
     "#chord#2 #chord#2",
-    "#chord#2 #note# #chord#",
-    "#chord#2 #note# #note#",
-    "#note# #chord# #note# #note#",
-    "#note# #chord# #note#2",
+    "#chord#2 #note##chord#",
+    "#chord#2 #note##note#",
+    "#note##chord##note##note#",
+    "#note##chord# #note#2",
     "#note# #chord#2 #note#",
-    "#note# #note# #chord# #note#",
-    "#note# #note# #note# #chord#",
-    "#note# #note# #note# #chord#",
-    "#note# #note# #note# #note#",
-    "#note# #note# #note#2",
+    "#note##note##chord##note#",
+    "#note##note##note##chord#",
+    "#note##note##note##chord#",
+    "#note##note##note##note#",
+    "#note##note# #note#2",
     "#note# #note#2 #note#",
-    "#note#2 #chord# #note#",
-    "#note#2 #note# #note#",
+    "#note#2 #chord##note#",
+    "#note#2 #note##note#",
     "#note#2 #note#2"
   ],
   "chord": [
