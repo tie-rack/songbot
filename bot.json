@@ -72,7 +72,7 @@
     "'"
   ],
   "song": [
-    "#bar# #bar# #bar# #bar# #bar# #bar# #bar# #bar#"
+    "|: #bar# | #bar# | #bar# | #bar# |\n| #bar# | #bar# | #bar# | #bar# :|"
   ],
   "bar": [
     "#chord# #chord# #chord# #chord#",
