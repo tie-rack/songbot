@@ -1,6 +1,6 @@
 {
   "origin": [
-    "T:#title#\nC:Tracery Songbot\nM:4/4\nQ:1/4=#tempo#\nK:[#k#]#key#\n#song#"
+    "T:#title#\nC:Tracery Songbot\nM:4/8\nQ:1/4=#tempo#\nK:[#k#]#key#\n#song#"
   ],
   "tempo": [
     "80", "85",
