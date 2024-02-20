@@ -11,7 +11,7 @@
   "author": "@ghost@indieweb.social",
   "license": "ISC",
   "devDependencies": {
-    "megalodon": "^5.4.1"
+    "megalodon": "^9.2.2"
   },
   "dependencies": {
     "tracery-grammar": "^2.7.4"
